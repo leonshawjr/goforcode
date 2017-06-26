@@ -1,0 +1,61 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>Leon's Restaurant</title>
+    </head>
+        <style>
+    .content {
+text-align:center;
+}
+</style>
+    <body>
+        <center><h1>Big Belly Burgerst</h1></center>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactus.html">Contact</a>
+        <form action="#" method="post">
+            <div class="content">
+                <label id="FullNameLabel" for="FullName">Name:</label>
+                <input id="FullName" name="FullName" type="text"  />
+            </div>
+            <div class="content">
+                <label id="EmailLabel" for="Email">Email:</label>
+                <input id="Email" name="Email" type="text"  />
+            </div>
+            <div class="content">
+                <label id="PhoneLabel" for="Phone">Phone:</label>
+                <input id="Phone" name="Phone" type="text"  />
+            </div>
+            <div class="content">
+            <label>Reason for Inquiry:</label>
+            <select>
+                <option value="catering">Catering</option>
+                <option value="privateparty">Private Part</option>
+                <option value="opefeedbackl">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+            <div class="content">
+                <label id="MessageLabel" for="Message">Additional Information:</label>
+                <textarea id="Message" name="Message"></textarea>
+            </div>
+            <div class="content">
+                <label id="MessageLabel" for="Message">Have you been to the restaurant?</label>
+                <input type="radio" name="answer" value="No" checked/>No
+                <input type="radio" name="answer" value="Yes"/>Yes<br/>
+            </div>
+            <div class="content">
+            <label>Best days to contact you:</label>
+            <input type="checkbox" name="myChoices" value="Monday"/>M
+            <input type="checkbox" name="myChoices" value="Tuesday"/>T
+            <input type="checkbox" name="myChoices" value="Wednesday"/>W
+            <input type="checkbox" name="myChoices" value="Thursday"/>TH
+            <input type="checkbox" name="myChoices" value="Friday"/>F
+            </div>
+            </br>
+        <footer>
+            <center><p>100 Rocket Dr., Rochester, NH, 03867</p></center>
+            <center><p>603-123-4567</p></center>
+        </footer>
+    </body>
+</html>
