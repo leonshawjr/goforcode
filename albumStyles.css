@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: lightgoldenrodyellow;
 }
 h2 {
     text-align: center;
@@ -17,4 +17,40 @@ h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: maroon;
+}
+/*tbody:nth-child {
+  background: greenyellow;
+}*/
+td:nth-child(1) {
+    background: lightcoral;
+}
+td:nth-child(2) {
+    background:silver;
+}
+td:nth-child(3) {
+    background: lightblue;
+}
+th {
+    font-style: italic;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+    background-color: yellowgreen
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+a {
+    text-decoration:none;          
 }
