@@ -3,12 +3,15 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 footer {
-    text-align: center;
+    /*text-align: center;
        position:fixed;
    left:0px;
    bottom:0px;
    height:30px;
-   width:100%;
+   width:100%;*/    
+   text-align: center;
+margin-bottom: -20px;
+clear: both;
 }
 a:link {
     color: green;
