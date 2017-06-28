@@ -4,5 +4,38 @@ h1 {
 }
 footer {
     text-align: center;
+       position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
 }
-
+a:link {
+    color: green;
+}
+/* visited link */
+a:visited {
+    color: red;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+a {
+    text-decoration:none;          
+}
+table {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 15%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow:hidden;
+}
