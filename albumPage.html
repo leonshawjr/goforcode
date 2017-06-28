@@ -2,13 +2,23 @@
 <html>
 
 <head>
-    <title>Music Album</title>
+   <title>Music Album</title>
     <link rel="stylesheet" type="text/css" href="albumStyles.css">
-</head>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <script src="bootstrap/docs/assets/js/vendor/jquery.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+    body {
+    background-color:lightgreen;
+}
+    </style>
 <body>
     <div class="image">
-        <a href=""><img src="images/basketball.jpg" width="360" height="400" alt=""></a>
+        <a href=""><img src="images/basketball.jpg" class="img-circle" alt="Cinque Terre" width="360" height="400" ></a>
         </br>
         <h1>Leon's Best Of 1988</h1>
         <p>
@@ -26,36 +36,36 @@
             </ul>
         </p>
     </div>
-    <table border="1" width="100%">
+
+    <div style="overflow-x:auto;">
+    <table width="100%">
         <caption>Tracks</caption>
         <tr bgcolor="lightgrey">
             <th>Track #</th>
             <th>Track Title</th>
             <th>Track Length</th>
         </tr>
-        <tbody>
+
         <tr style="text-align: center;">
             <td>1</td>
             <td>The Dribble</td>
             <td>3:23</td>
         </tr>
-        </tbody>
-        <tbody>
+
         <tr style="text-align: center;">
             <td>2</td>
             <td>Get the Boards</td>
             <td>2:45</td>
         </tr>
-        </tbody>
-        <tbody>
+
         <tr style="text-align: center;">
             <td>3</td>
             <td>Play Defense</td>
             <td>3:04</td>
         </tr>
-        </tbody>
-    </table>
 
+    </table>
+</div>
 </body>
 
 
